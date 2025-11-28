@@ -36,6 +36,7 @@ The complexity of the Application Load Balancer is broken down into a chain of c
 To deploy the entire Global Application Load Balancer stack, execute the script:
 
 ```bash
+# This is the relative path from root directory, if you only clone this lab repo, please change it accordingly.
 chmod +x ./networking/load-balancing/global-http-lb/commands.sh
 ./networking/load-balancing/global-http-lb/commands.sh
 ```
