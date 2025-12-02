@@ -73,6 +73,10 @@ gcloud compute firewall-rules create managementnet-allow-icmp-ssh-rdp \
 
 4. Ping `managementnet-us-vm` (External IP): Success (Routed via Internet).
 
+5. Ping `privatenet-us-vm` (Internal IP): Fail (Different VPC, Isolated). 
+
+6. Ping `privatenet-us-vm` (External IP): Success (Routed via Internet).
+
 ## Cleanup
 
 Run the `cleanup.sh` script to delete all the resources in the lab - [cleanup.sh](./cleanup.sh)
